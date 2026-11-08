@@ -1,0 +1,37 @@
+# Local research environment
+artifacts/
+resources/
+*.zip
+*.apk
+*.jadx
+*.bin
+*.TS
+*.ts
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.dump
+*.img
+*.log
+*.key
+*.pem
+*.p12
+*.jks
+*.mobileprovision
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+DerivedData/
+xcuserdata/
+xcshareddata/WorkspaceSettings.xcsettings
+
+# Keep source code tracked
+!ios-app/**
+!tools/**
+!scratch/**/*.py
+!scratch/**/*.json

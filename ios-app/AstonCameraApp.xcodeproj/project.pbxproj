@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+        1A2B3C /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0010 /* AstonCameraApp.swift */; };
+        1A2B3D /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0011 /* CameraStatus.swift */; };
+        1A2B3E /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0012 /* RecordedVideo.swift */; };
+        1A2B3F /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0013 /* CameraAPIClient.swift */; };
+        1A2B40 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0014 /* VideoXMLParser.swift */; };
+        1A2B41 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0015 /* DownloadManager.swift */; };
+        1A2B42 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0016 /* RTSPPlayerAdapter.swift */; };
+        1A2B43 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0017 /* DashboardView.swift */; };
+        1A2B44 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0018 /* GalleryView.swift */; };
+        1A2B45 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F0019 /* LiveView.swift */; };
+        1A2B46 /* PBXBuildFile */ = { isa = PBXBuildFile; fileRef = 7F001A /* VideoDetailView.swift */; };
+
+        7F0010 /* AstonCameraApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/AstonCameraApp.swift"; sourceTree = "<group>"; };
+        7F0011 /* CameraStatus.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/CameraStatus.swift"; sourceTree = "<group>"; };
+        7F0012 /* RecordedVideo.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/RecordedVideo.swift"; sourceTree = "<group>"; };
+        7F0013 /* CameraAPIClient.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network/CameraAPIClient.swift"; sourceTree = "<group>"; };
+        7F0014 /* VideoXMLParser.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network/VideoXMLParser.swift"; sourceTree = "<group>"; };
+        7F0015 /* DownloadManager.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/DownloadManager.swift"; sourceTree = "<group>"; };
+        7F0016 /* RTSPPlayerAdapter.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/RTSPPlayerAdapter.swift"; sourceTree = "<group>"; };
+        7F0017 /* DashboardView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/DashboardView.swift"; sourceTree = "<group>"; };
+        7F0018 /* GalleryView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/GalleryView.swift"; sourceTree = "<group>"; };
+        7F0019 /* LiveView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/LiveView.swift"; sourceTree = "<group>"; };
+        7F001A /* VideoDetailView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/VideoDetailView.swift"; sourceTree = "<group>"; };
+        7F00A0 /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+        3A4C5B /* PBXGroup */ = {
+            isa = PBXGroup;
+            children = (
+                7F0010,
+                7F0011,
+                7F0012,
+                7F0013,
+                7F0014,
+                7F0015,
+                7F0016,
+                7F0017,
+                7F0018,
+                7F0019,
+                7F001A
+            );
+            path = AstonCameraApp;
+            sourceTree = "<group>";
+        };
+
+        3A4C5C /* PBXGroup */ = {
+            isa = PBXGroup;
+            children = (
+                3A4C5B,
+                7F00A0
+            );
+            path = ".";
+            sourceTree = "<group>";
+        };
+
+        7A0D22 /* PBXNativeTarget */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 7A0D40 /* Build configuration list for PBXNativeTarget "AstonCameraApp" */;
+            buildPhases = (
+                7A0D30 /* Sources */,
+                7A0D31 /* Frameworks */
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = AstonCameraApp;
+            productName = AstonCameraApp;
+            productReference = 7A0D50 /* AstonCameraApp.app */;
+            productType = "com.apple.product-type.application";
+        };
+
+        7A0D24 /* PBXProject */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 1600;
+                LastUpgradeCheck = 1600;
+                TargetAttributes = {
+                    7A0D22 = {
+                        CreatedOnToolsVersion = 16.0;
+                    };
+                };
+            };
+            buildConfigurationList = 7A0D41 /* Build configuration list for PBXProject "AstonCameraApp" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 3A4C5C;
+            productRefGroup = 3A4C5C;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                7A0D22,
+            );
+        };
+
+        7A0D30 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                1A2B3C,
+                1A2B3D,
+                1A2B3E,
+                1A2B3F,
+                1A2B40,
+                1A2B41,
+                1A2B42,
+                1A2B43,
+                1A2B44,
+                1A2B45,
+                1A2B46,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        7A0D31 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        7A0D40 /* Build configuration list for PBXNativeTarget "AstonCameraApp" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                7A0D42,
+                7A0D43,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+
+        7A0D41 /* Build configuration list for PBXProject "AstonCameraApp" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                7A0D44,
+                7A0D45,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+
+        7A0D42 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.aston.AstonCameraApp";
+                PRODUCT_NAME = AstonCameraApp;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.9;
+                SWIFT_OBJC_BRIDGING_HEADER = "";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+
+        7A0D43 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CODE_SIGNING_ALLOWED = NO;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.aston.AstonCameraApp";
+                PRODUCT_NAME = AstonCameraApp;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.9;
+                SWIFT_OBJC_BRIDGING_HEADER = "";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+
+        7A0D44 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.9;
+            };
+            name = Debug;
+        };
+
+        7A0D45 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_VERSION = 5.9;
+            };
+            name = Release;
+        };
+
+        7A0D50 /* AstonCameraApp.app */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            path = AstonCameraApp.app;
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+
+    };
+    rootObject = 7A0D24 /* PBXProject */;
+}
